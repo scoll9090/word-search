@@ -1,0 +1,102 @@
+.Main{
+
+  color:red;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+
+.Word{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+    background-color: white;
+}
+
+#canvas{
+position:absolute;
+}
+
+#canvasBack{
+position:absolute;
+
+}
+
+#canvas,#canvasBack{
+  display:block;
+  margin:auto;
+  width:700px;
+  height:700px;
+}
+
+.canvas-wrap{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.canvas-pat{
+  width: 700px;
+  height: 700px;
+
+}
+
+.puzzle-name{
+  display: flex;
+  height: 100px;
+  color: black;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+
+}
+
+.Category{
+  width:200px;
+  height:300px;
+  background-color:skyblue;
+  text-align: center;
+  color:#fff;
+  display:flex;
+  flex-direction: column;
+}
+
+.head{
+  height:60px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.puzzle-list{
+  height:50%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  cursor:pointer;
+
+}
+
+.Title{
+  margin: 0px;
+  width: 400px;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
